@@ -1,19 +1,25 @@
-# Mahabharata Tool 🕉️
+# Mahabharata API Tool 🕉️
 
-An open-source project to explore the Mahabharata digitally.
+An open-source Flask API project based on Mahabharata.
 
 ## Features
-- Character database
-- Event timeline
+- Characters API
+- Places API
+- Events API
 - Search system
-- API access
 - Educational tool
 
 ## Tech Stack
 - Python
 - Flask
-- JSON
-- HTML/CSS/JS
+- REST API
 
-## Usage
-python app.py
+## Run Project
+pip install flask  
+python app.py  
+
+## API Routes
+/characters  
+/places  
+/events  
+/search?name=krishna  
